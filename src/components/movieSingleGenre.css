@@ -1,0 +1,28 @@
+.genre {
+  color: white;
+}
+.genre h3 {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.more {
+  display: flex;
+  /* justify-content: end; */
+}
+.moreOfGenre {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+ 
+}
+.moreOfGenre a{
+  text-decoration: none;
+}
+
+.genre-title {
+  /* border-bottom: 4px solid white; */
+  display: inline-block;
+}

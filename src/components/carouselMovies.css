@@ -1,0 +1,67 @@
+.title {
+  color: white;
+  position: absolute;
+  z-index: 5;
+}
+
+.titleContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.titleContainer img{
+  position: absolute;
+  z-index: 10;
+}
+.img-carousel {
+  width: 100%;
+  object-fit: contain;
+  /* margin: 30px; */
+  box-shadow: 4px 4px 15px;
+}
+
+.carousel-body {
+  padding: 10px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_container {
+  backdrop-filter: blur(9px);
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.info {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators button {
+  background-color: white !important;
+  height: 10px !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: grayscale(0) invert(0) !important;
+}
+
+.bgimg {
+  background-size: cover;
+}
